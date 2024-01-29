@@ -5,30 +5,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 header, main, footer {
-    padding: 20px;
+    padding: 16px;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #ebd8d8;
+    color: #3185ca;
+    text-align: left;
 }
 
 /* Main content styles */
 main {
     padding-top: 50px; /* Adjust as needed */
+    display: flex;
+    background-color: #a75406;
+    font-style: italic;
+    color: #3964a5;
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #a75406;
     color: #fff;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+section {
+    margin-left: 10px;
+    background-color: #e2d4c7;
 }
