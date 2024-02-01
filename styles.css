@@ -8,25 +8,25 @@ body {
 
 }
 
-header, main, footer {
-    padding: 16px;
+footer {
+    padding: 33px;
 }
 
 /* Header styles */
 header {
     background-color: #ebd8d8;
-    color: #3185ca;
+    color: #696a6b;
     text-align: left;
 }
 
 /* Main content styles */
-main {
-    padding-top: 50px; /* Adjust as needed */
+/* main {
+    padding-top: 50px;
     display: flex;
     background-color: #a75406;
     font-style: italic;
-    color: #3964a5;
-}
+    color: #747475;
+} */
 
 /* Footer styles */
 footer {
@@ -37,8 +37,29 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+/* 
 section {
     margin-left: 10px;
     background-color: #e2d4c7;
+} */
+
+/* Main content styles */
+/* Main content styles */
+main {
+    padding-top: 50px; /* Adjust as needed */
+    display: flex;
 }
+
+/* Adjust the width of the image container */
+header img {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* Set a fixed width for the image */
+}
+
+section {
+    flex: 1; /* This will make the section take up the remaining space */
+    margin-left: 10px;
+    background-color: #e2d4c7;
+}
+
